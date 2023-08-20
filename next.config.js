@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const runtimeCaching = require("next-pwa/cache");
+const runtimeCaching = require("next-pwa/cache"); // for some reason, adding runtimeCaching makes PWAs work in prod
 
 const withPWA = require('next-pwa')({
   dest: 'public',
