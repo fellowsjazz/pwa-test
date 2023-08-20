@@ -12,7 +12,7 @@ import { usePrivy, useWallets } from "@privy-io/react-auth";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
-export default function dashboard() {
+export default function Dashboard() {
   const {
     ready,
     authenticated,
