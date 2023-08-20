@@ -13,7 +13,7 @@ export default function Home() {
   useEffect(() => {
     console.log(`Ready: ${ready} Auth: ${authenticated} User: ${user}`);
     if (ready && authenticated) {
-      router.push("/Dashboard");
+      router.push("/dashboard");
     }
   }, [ready, authenticated, router]);
 
