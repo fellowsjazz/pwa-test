@@ -23,6 +23,7 @@ export default function Dashboard() {
     linkGoogle,
     logout,
     createWallet,
+    exportWallet
   } = usePrivy();
   const [userId, setUserId] = useState();
   const router = useRouter();
@@ -77,6 +78,7 @@ export default function Dashboard() {
                 View on Etherscan
               </Button>
             </a>
+            <Button onClick={exportWallet} mt="5%" borderColor={"#000000"} variant={"outline"}>Export Wallet</Button>
           </Flex>
         )}
       </Flex>
