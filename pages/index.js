@@ -14,7 +14,7 @@ export default function Home() {
     console.log(`Ready: ${ready} Auth: ${authenticated} User: ${user}`);
     if (ready && authenticated) {
       console.log("index use Effect called")
-      router.push("/Dashboard");
+      router.push("/dashboard");
     }
   }, [ready, authenticated]);
   
